@@ -100,11 +100,11 @@ The dataset is sourced from the **Parkinson’s Progression Markers Initiative (
 - Implementing the model into a **user-friendly diagnostic tool**.  
 
 ## 👨‍💻 Team Members  
-- **[Vaibhav Singh]([https://github.com/vaibhav22555](https://github.com/vs34))**  
-- **[Vansh Yadav]([https://github.com/vansh22559](https://github.com/vansh22559))**  
-- **[Utkarsh Dhilliwal]([https://github.com/utkarsh22551](https://github.com/utkarsh205-ui))**  
-- **[Shamik Sinha]([https://github.com/shamik22468](https://github.com/theshamiksinha))**
-- 
+- **[Vaibhav Singh](https://github.com/vs34)**  
+- **[Vansh Yadav](https://github.com/vansh22559)**  
+- **[Utkarsh Dhilliwal](https://github.com/utkarsh205-ui)**  
+- **[Shamik Sinha](https://github.com/theshamiksinha)**  
+  
 ## 📜 References  
 1. Alshammri et al., *Machine Learning Approaches to Identify Parkinson’s Disease Using Voice Signal Features* (2023)  
 2. Cummings et al., *Dopaminergic Imaging in Neurodegeneration* (2011)  
