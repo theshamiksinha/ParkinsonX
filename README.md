@@ -1,7 +1,25 @@
 # 🧠 Parkinson's Disease Prediction Using Machine Learning  
 
 ## 📌 Project Overview  
-This project aims to develop machine learning models for the early detection of **Parkinson’s Disease (PD)** using **biomarkers, cognitive, and behavioral tests**. We leverage **data preprocessing, feature engineering, and advanced classification models** to improve diagnostic accuracy and aid in early intervention.  
+This project aims to develop machine learning models for the early detection of **Parkinson’s Disease (PD)** using **biomarkers, cognitive, and behavioural tests**. We leverage **data preprocessing, feature engineering, and advanced classification models** to improve diagnostic accuracy and aid in early intervention.  
+
+## 📂 Repository Structure
+├── 📖 README.md                     <- Project documentation.
+├── 📜 Project_Proposal.pdf           <- Initial project proposal.
+├── 📑 MidSem_Report.pdf              <- Mid-semester report.
+├── 📽️ MidSem_Presentation.pdf       <- Mid-semester presentation slides.
+├── 📑 Project_Report_Endsem_33.pdf   <- End-semester project report.
+├── 📽️ CSE343 End Semester Presentation.pdf  <- Final presentation slides.
+├── 📂 models  
+│   ├── 🎯 Best_XGB_Model_Multiclass_86.pkl  <- Trained XGBoost model (Multiclass).  
+│   ├── 🎯 best_rf_model_95.pkl              <- Trained Random Forest model.  
+│   ├── 🎯 best_svm_model_92.pkl             <- Trained SVM model.  
+│  
+├── 📂 notebooks  
+│   ├── 📓 code.ipynb               <- Jupyter Notebook with model training and evaluation.  
+│  
+└── ⚙️ .DS_Store                     <- System file (macOS, can be ignored).  
+
 
 ## 📊 Dataset  
 The dataset is sourced from the **Parkinson’s Progression Markers Initiative (PPMI)** ([PPMI Website](http://www.ppmi-info.org/data)) and consists of:  
@@ -65,11 +83,15 @@ The dataset is sourced from the **Parkinson’s Progression Markers Initiative (
 - Investigating the impact of **additional biomarkers**.  
 - Implementing the model into a **user-friendly diagnostic tool**.  
 
+## 👨‍💻 Team Members  
+- **[Vaibhav Singh]([https://github.com/vaibhav22555](https://github.com/vs34))**  
+- **[Vansh Yadav]([https://github.com/vansh22559](https://github.com/vansh22559))**  
+- **[Utkarsh Dhilliwal]([https://github.com/utkarsh22551](https://github.com/utkarsh205-ui))**  
+- **[Shamik Sinha]([https://github.com/shamik22468](https://github.com/theshamiksinha))**
+- 
 ## 📜 References  
 1. Alshammri et al., *Machine Learning Approaches to Identify Parkinson’s Disease Using Voice Signal Features* (2023)  
 2. Cummings et al., *Dopaminergic Imaging in Neurodegeneration* (2011)  
 3. Marek et al., *Parkinson Progression Marker Initiative* (2011)  
-
-📌 **GitHub Repository:** [ParkinsonX](#) (Replace `#` with your repo link)  
 
 📢 **If you found this project helpful, please ⭐ the repository!**  
