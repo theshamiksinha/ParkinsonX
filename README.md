@@ -1,4 +1,4 @@
-# 🧠 Parkinson's Disease Prediction Using Machine Learning  
+# 🧠 ParkinsonX : Parkinson's Disease Prediction Using Machine Learning  
 
 ## 📌 Project Overview  
 This project aims to develop machine learning models for the early detection of **Parkinson’s Disease (PD)** using **biomarkers, cognitive, and behavioural tests**. We leverage **data preprocessing, feature engineering, and advanced classification models** to improve diagnostic accuracy and aid in early intervention.  
