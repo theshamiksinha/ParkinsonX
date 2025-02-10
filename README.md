@@ -5,23 +5,23 @@ This project aims to develop machine learning models for the early detection of 
 
 ## 📂 Repository Structure
 ```
-├── 📖 README.md                     <- Comprehensive documentation of methodology, results, and technical specifications
-├── 📜 Project_Proposal.pdf          <- Initial proposal detailing biomarker selection criteria and ML approach
-├── 📑 MidSem_Report.pdf             <- Interim analysis report
-├── 📽️ MidSem_Presentation.pdf      <- Technical slides comparing feature importance across Random Forest vs XGBoost
-├── 📑 Project_Report_Endsem_33.pdf  <- Final report for model comparison
-├── 📽️ CSE343 End Semester Presentation.pdf  <- Final demo with visualizations 
+├── 📖 README.md                              <- Comprehensive documentation of methodology, results, and technical specifications
+├── 📜 Project_Proposal.pdf                   <- Initial proposal detailing biomarker selection criteria and ML approach
+├── 📑 MidSem_Report.pdf                      <- Interim analysis report
+├── 📽️ MidSem_Presentation.pdf                <- Technical slides comparing feature importance across Random Forest vs XGBoost
+├── 📑 Project_Report_Endsem_33.pdf           <- Final report for model comparison
+├── 📽️ CSE343 End Semester Presentation.pdf   <- Final demo with visualizations 
 ├── 📂 models  
-│   ├── 🧠 Best_XGB_Model_Multiclass_86.pkl  <- Optimized XGBoost with 86.2% accuracy
-│   ├── 🧠 best_rf_model_95.pkl      <- Random Forest 95.4% binary classification F1-score
-│   ├── 🧠 best_svm_model_92.pkl     <- SVM classifier with 92.1% precision 
+│   ├── 🧠 Best_XGB_Model_Multiclass_86.pkl   <- Optimized XGBoost with 86.2% accuracy
+│   ├── 🧠 best_rf_model_95.pkl               <- Random Forest 95.4% binary classification F1-score
+│   ├── 🧠 best_svm_model_92.pkl              <- SVM classifier with 92.1% precision 
 ├── 📂 notebooks  
-│   ├── 📓 code.ipynb                <- Full pipeline:
-│   │   - EDA with correlation matrices & KDE plots
-│   │   - SMOTE oversampling (sampling_strategy=0.8)
+│   ├── 📓 code.ipynb                         <- Full pipeline:
+│   │   - EDA with correlation matrices
+│   │   - SMOTE oversampling 
 │   │   - GridSearchCV hyperparameter tuning
 │   │   - Model evaluation 
-└── ⚙️ .DS_Store                     <- macOS directory metadata file (excluded from version control)
+└── ⚙️ .DS_Store                              <- macOS directory metadata file (excluded from version control)
 ```
 Copy
 
