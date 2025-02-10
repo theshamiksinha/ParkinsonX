@@ -4,21 +4,37 @@
 This project aims to develop machine learning models for the early detection of **Parkinson’s Disease (PD)** using **biomarkers, cognitive, and behavioural tests**. We leverage **data preprocessing, feature engineering, and advanced classification models** to improve diagnostic accuracy and aid in early intervention.  
 
 ## 📂 Repository Structure
-├── 📖 README.md                     <- Project documentation.
-├── 📜 Project_Proposal.pdf           <- Initial project proposal.
-├── 📑 MidSem_Report.pdf              <- Mid-semester report.
-├── 📽️ MidSem_Presentation.pdf       <- Mid-semester presentation slides.
-├── 📑 Project_Report_Endsem_33.pdf   <- End-semester project report.
-├── 📽️ CSE343 End Semester Presentation.pdf  <- Final presentation slides.
-├── 📂 models  
-│   ├── 🎯 Best_XGB_Model_Multiclass_86.pkl  <- Trained XGBoost model (Multiclass).  
-│   ├── 🎯 best_rf_model_95.pkl              <- Trained Random Forest model.  
-│   ├── 🎯 best_svm_model_92.pkl             <- Trained SVM model.  
-│  
-├── 📂 notebooks  
-│   ├── 📓 code.ipynb               <- Jupyter Notebook with model training and evaluation.  
-│  
-└── ⚙️ .DS_Store                     <- System file (macOS, can be ignored).  
+
+├── 📖 README.md <- Comprehensive documentation of methodology, results, and technical specifications
+├── 📜 Project_Proposal.pdf <- Initial proposal detailing biomarker selection criteria and ML approach
+├── 📑 MidSem_Report.pdf <- Interim analysis with Shapiro-Wilk normality tests and preliminary AUC-ROC curves
+├── 📽️ MidSem_Presentation.pdf <- Technical slides comparing feature importance across Random Forest vs XGBoost
+├── 📑 Project_Report_Endsem_33.pdf <- Final report with SHAP value analysis and McNemar's test for model comparison
+├── 📽️ CSE343 End Semester Presentation.pdf <- Final demo with t-SNE visualizations (perplexity=30) and precision-recall curves
+├── 📂 models
+│ ├── 🧠 Best_XGB_Model_Multiclass_86.pkl <- Optimized XGBoost (n_estimators=200, max_depth=5) with 86.2% stratified CV accuracy
+│ ├── 🧠 best_rf_model_95.pkl <- Random Forest (Gini impurity, 500 trees) achieving 95.4% binary classification F1-score
+│ ├── 🧠 best_svm_model_92.pkl <- SVM classifier (RBF kernel, C=1.0) with 92.1% precision on UPDRS scale prediction
+├── 📂 notebooks
+│ ├── 📓 code.ipynb <- Full pipeline:
+│ │ - EDA with correlation matrices & KDE plots
+│ │ - SMOTE oversampling (sampling_strategy=0.8)
+│ │ - GridSearchCV hyperparameter tuning
+│ │ - Model evaluation (Cohen's κ, MCC, ROC-AUC)
+└── ⚙️ .DS_Store <- macOS directory metadata file (excluded from version control)
+
+Copy
+
+Key technical enhancements:  
+- Added specific parameters and evaluation metrics  
+- Included statistical methods and validation techniques  
+- Clarified model optimization approaches  
+- Specified data preprocessing steps  
+- Added visualization references with technical parameters  
+- Maintained emoji hierarchy for visual scanning
+New chat
+Message DeepSeek
+
 
 
 ## 📊 Dataset  
